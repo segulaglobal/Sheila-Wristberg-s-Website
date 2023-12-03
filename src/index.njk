@@ -1,0 +1,137 @@
+---
+title: Segula Global
+meta: Sheila Wristberg is an award-winning insurance and risk management expert with over a decade of experience advising leading institutions across Ghana and internationally. As Managing Director of iRisk Management Ltd and a recognized thought leader, Sheila is passionate about insurance access and literacy. Sheila works to progress inclusive policies and sustainable industry growth as an influential figure recently honored as “Young Insurance Professional of the Year” by the Ghana Insurance Excellence Awards 2022.
+layout: 'base.njk'
+---
+
+{# Table of content #}
+{# 1. Section hero #}
+{# 3. Section About #}
+{# 2. Section Services #}
+
+
+
+
+
+
+{# ================================ Section hero ============================= #}
+<section class="section-hero" id="section-hero">
+    <div class="container wrapper">
+        <div class="hero-container">
+            <img src="/assets/hero-img.png" alt="sheila wristberg" class="hero-img">
+            <h1 class="hero-name">Sheila Wristberg</h1>
+        </div>
+    </div>
+</section>
+{# Section-hero #}
+
+
+
+
+{# ================================ Section about ============================= #}
+<section class="hero-about">
+    <div class="container wrapper">
+        <div class="col-2">
+            <div>
+                <h1>Helping brands to stand out in the digital era. Together we will set the new status quo. No nonsense, always on the cutting edge.</h1>
+            </div>
+            <div>
+                <p>The combination of my passion for design, code &amp; interaction positions me in a unique place in the web design world.</p>
+                <a href="" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+{# End of Section Hero #}
+
+
+
+{# ================================ Section Speaking ============================= #}
+<section class="hero-speaking">
+    <div class="container wrapper">
+        <h2 class="heading-secondary">Speaking</h2>
+        <h1>Helping brands to stand out in the digital era. ays on the cutting edge.Helping brands to stand out in the digital era. ays on the cutting edge.</h1>
+
+        <div class="col-4 mb-50">
+            <img src="/assets/speaking-1.png" alt="Sheila speaking">
+            <img src="/assets/speaking-2.png" alt="Sheila speaking">
+            <img src="/assets/speaking-1.png" alt="Sheila speaking">
+            <img src="/assets/speaking-3.png" alt="Sheila speaking">
+        </div>
+        <a href="#" class="btn btn-primary">Speaking</a>
+    </div>
+</section>
+{# End of section speaking #}
+
+
+
+
+{# ================================ Section Awards ============================= #}
+<section class="section-awards">
+    <div class="container wrapper">
+        <div class="col-3-2">
+            <div class="award">
+                <img src="/assets/aio.png" alt="aio">
+            </div>
+            <div class="award">
+                <img src="/assets/angaza.png" alt="angaza">
+            </div>
+            <div class="award">
+                <img src="/assets/yips.png" alt="yips">
+            </div>
+            <div class="award">
+                <img src="/assets/wima.png" alt="wima">
+            </div>
+            <div class="award">
+                <img src="/assets/ciic.png" alt="ciic">
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+{# End of Section awards #}
+
+
+
+
+
+
+<!-- =============== Section Testimonials =================== -->
+<section class="section-testimonials">
+    <div class="custom-shape-divider-top-1701597820">
+        <div class="custom-shape-divider-top-1701598037">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="container wrapper">
+        <div class="testimonial">
+            <div class="testimonial-background"></div>
+            <img src="/assets/testimonial-1.png" alt="testimonial" class="testimonial-img">
+            <p class="testimonial-text">Helping brands to stand out in the digital era. ays on the cutting edge.Helping brands to stand out in the digital era. ays on the cutting edge.</p>
+            <div class="hr"></div>
+            <p class="testimonial-title">Brand Strategist</p>
+            <h3 class="testimonial-name">Carbell Sarfo</h3>
+        </div>
+    </div>
+</section>
+{# end of testimonial #}
+
+
+
+<!-- =============== BLOG =================== -->
+<section class="section-blog">
+    <div class="container wrapper">
+        <h2 class="heading-secondary">Blog</h2>
+        <div class="col-3 mb-50">
+            {%- for post in collections.featured | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
+        </div>
+        <div class="text-center">
+            <a href="/blog/" class="btn btn-primary">Recent Articles</a>
+        </div>
+    </div>
+</section>
+{# End of Blog #}

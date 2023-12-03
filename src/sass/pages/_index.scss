@@ -1,0 +1,334 @@
+// Table of Content
+// 1. Coming soon page
+// 2. Section-hero
+// 3. About us section
+// 4. Section Services
+// 5. Section Banner
+// 6. Section Proposition
+// 7. Section Testimonials
+// 8. Section packages.
+
+
+
+
+
+
+
+
+// == Section-hero ==
+.section-hero {
+    width: 100%;
+    height: 100vh;
+    @include ease(.4s);
+    position: relative;
+    background-color: var(--clr-gray);
+    overflow: hidden;
+    
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .hero-img {
+        line-height: 1;
+        height: 100%;
+        width: auto;
+    }
+    .hero-name {
+        color: var(--clr-white);
+        font-family: 'branch', sans-serif;
+        font-size: 20rem;
+        line-height: 1;
+        transform: translateX(100%);
+        animation: my-animation 15s linear infinite;
+        position: absolute;
+        bottom: 10rem;
+        letter-spacing: 2px;
+        white-space: nowrap;
+    }
+}
+// End of Section Hero
+
+
+
+
+// ====================== Hero About ========================
+.hero-about {
+    padding: 10rem 0 10rem;
+
+    .col-2 {
+        gap: 10rem;
+    }
+
+    h1 {
+        line-height: 1.5;
+        font-size: 3rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+
+}
+// End of About Us
+
+
+
+
+// ====================== Hero speaking ========================
+.hero-speaking {
+    padding: 10rem 0;
+
+    h1 {
+        font-size: 3rem;
+        width: 100%;
+        max-width: 600px;
+        line-height: 1.5;
+        margin-bottom: 5rem;
+    }
+}
+// End of hero speaking
+
+
+
+// ====================== Hero awards ========================
+.section-awards {
+    padding: 15rem 0;
+
+    .award {
+
+        img {
+            // width: 200px;
+            max-width: 250px;
+        }
+    }
+}
+
+
+
+
+
+// ================= SECTION TESTIMONIAL ===================
+.section-testimonials {
+    padding: 15rem 0;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    text-align: center;
+    position: relative;
+
+    // custom shape
+    .custom-shape-divider-top-1701598037 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1701598037 svg {
+        position: relative;
+        display: block;
+        width: calc(135% + 1.3px);
+        height: 203px;
+    }
+    
+    .custom-shape-divider-top-1701598037 .shape-fill {
+        fill: #FFFFFF;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1701598037 svg {
+            width: calc(135% + 1.3px);
+            height: 75px;
+        }
+    }
+
+    .testimonial {
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+
+        &-img {
+            width: 100px;
+            // transform: translateY(-50%);
+            margin-top: 3rem;
+        }
+
+        &-background {
+            width: 50%;
+            height: 100%;
+            background-color: #181818;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+        }
+
+        .hr {
+            width: 150px;
+            display: inline-block;
+            height: 1px;
+            background-color: var(--clr-gray);
+            margin: 4rem 0rem 1rem;
+        }
+
+        &-title {
+            color: var(--clr-gray);
+            font-size: 1.3rem;
+            line-height: 1;
+        }
+        &-name {
+            margin-bottom: 3rem;
+        }
+    }
+
+}
+// end of testimonial section
+
+
+
+
+
+
+
+// ================= SECTION Blog ===================
+.section-blog {
+    padding: 15rem 0;
+    background-color: var(--clr-gray-light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ///////////////////////////////////////////////
+  //             MEDIA QUERIES
+  /////////////////////////////////////////////////
+
+@media screen and (min-width: 769px) {
+
+    .section-hero {
+
+        .hero-text {
+            margin-top: -10rem;
+        }
+
+        .btn-primary {
+            margin-right: 2rem;
+        }
+    }
+
+    // Section-about
+    .section-about {
+        
+        .about-container {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .about-gallery {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 2rem;
+        }
+    }
+
+    // Section-testimonial
+    .section-testimonials {
+
+        .testimonial {
+            max-width: 800px;
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section-hero {
+
+        .hero-container {
+            
+            .hero-img {
+                width: auto;
+                height: 100%;
+                transform: translateX(-10rem);
+            }
+        }
+    }
+
+   
+
+     /// Section Testimonial
+     .section-testimonials {
+
+        .testimonials-container {
+            padding: 0;
+        }
+
+        .prev, .next {
+            // opacity: 0;
+            top: 110%;
+        }
+        .dot {
+            margin-top: 6rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .section-hero {
+        // display: none;
+
+        .hero-container {
+
+            .hero-name {
+                font-size: 10rem;
+            }
+        }
+    }
+    // end of section hero
+
+
+
+    // section testimonial
+    .section-testimonials {
+
+        .testimonial {
+
+            &__text {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    
+ 
+}
+
+@media screen and (max-width: 325px) {
+
+   
+}
