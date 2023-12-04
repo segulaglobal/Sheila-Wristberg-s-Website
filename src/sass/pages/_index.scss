@@ -206,6 +206,25 @@
 
 
 
+// ================= SECTION YouTube ===================
+.section-youtube {
+    padding: 15rem 0;
+
+    .yt {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        border-radius: 1rem;
+        transition: .4s;
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.169);
+        }
+    }
+}
+
+
 
 
 

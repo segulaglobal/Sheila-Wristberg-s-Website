@@ -205,6 +205,14 @@ img {
   font-size: 1.4rem;
 }
 
+.heading-big {
+  font-size: 7rem;
+  color: var(--clr-white);
+  line-height: 1;
+  font-weight: medium;
+  display: inline-block;
+}
+
 .thin-text {
   font-weight: lighter;
   letter-spacing: 2px;
@@ -460,11 +468,10 @@ img {
   color: #fff;
   padding: 10rem 5rem;
   overflow: hidden;
-  opacity: 0;
   pointer-events: none;
+  transition: 0.6s ease;
 }
 .nav-menu.show {
-  opacity: 1;
   pointer-events: initial;
 }
 .nav-menu .nav-content {
@@ -597,7 +604,7 @@ img {
   height: 203px;
 }
 .section-footer .custom-shape-divider-top-1701597820 .shape-fill {
-  fill: #DADCE4;
+  fill: #fff;
 }
 @media (max-width: 767px) {
   .section-footer .custom-shape-divider-top-1701597820 svg {
@@ -608,13 +615,6 @@ img {
 .section-footer img {
   width: 150px;
   margin-right: 4rem;
-}
-.section-footer h1 {
-  font-size: 7rem;
-  color: var(--clr-white);
-  line-height: 1;
-  font-weight: medium;
-  display: inline-block;
 }
 .section-footer hr {
   margin: 5rem 0;
@@ -653,36 +653,6 @@ footer p {
     gap: 5rem;
   }
 }
-.section-contact {
-  padding: 10rem 0 15rem;
-  text-align: center;
-}
-.section-contact .contact-form {
-  width: 100%;
-  padding: 1rem;
-  max-width: 800px;
-  display: inline-block;
-}
-.section-contact .input-field {
-  width: 90%;
-  outline: none;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  padding: 1rem;
-  padding-inline: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 3rem;
-  background-color: var(--clr-gray-light);
-  border: 1px solid var(--clr-gray);
-  resize: none;
-  transition: 0.4s;
-}
-.section-contact .input-field:focus, .section-contact .input-field:valid {
-  width: 100%;
-  border: 1px solid var(--clr-primary);
-}
-
 .section-hero {
   width: 100%;
   height: 100vh;
@@ -818,6 +788,21 @@ footer p {
 .section-blog {
   padding: 15rem 0;
   background-color: var(--clr-gray-light);
+}
+
+.section-youtube {
+  padding: 15rem 0;
+}
+.section-youtube .yt {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  transition: 0.4s;
+}
+.section-youtube .yt:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.169);
 }
 
 @media screen and (min-width: 769px) {
@@ -1045,6 +1030,89 @@ footer p {
 @media screen and (max-width: 600px) {
   .individual-article__page .main-article__figure::before, .individual-article__page .main-article__figure::after {
     display: none;
+  }
+}
+.section-contact {
+  background-color: var(--clr-black);
+  padding: 15rem 0;
+  color: var(--clr-white);
+}
+.section-contact .contact-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  gap: 20rem;
+}
+.section-contact .contact-form {
+  padding: 3rem 0;
+  border-top: 1px solid var(--clr-gray);
+}
+.section-contact .contact-form .input-field {
+  margin-bottom: 2rem;
+}
+.section-contact .contact-form label {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.section-contact .contact-form label span {
+  color: #484848;
+  margin-right: 1rem;
+}
+.section-contact .contact-form .input {
+  width: 100%;
+  padding: 2rem 1rem;
+  padding-left: 4rem;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #484848;
+  color: var(--clr-white);
+  transition: 0.4s ease;
+  resize: none;
+}
+.section-contact .contact-form .input:focus, .section-contact .contact-form .input:valid {
+  border-bottom: 1px solid var(--clr-primary);
+}
+.section-contact .contact-form select {
+  margin-left: 4rem;
+  width: calc(100% - 6rem);
+  padding: 2rem;
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  color: var(--clr-white);
+}
+.section-contact .contact-form select option {
+  color: var(--clr-black);
+}
+.section-contact .contact-form .btn {
+  padding-inline: 6rem;
+}
+.section-contact .contact-form .btn-primary:hover, .section-contact .contact-form .btn-primary:focus {
+  color: var(--clr-white);
+  background-color: transparent;
+}
+.section-contact .contact-details ul {
+  list-style: none;
+}
+.section-contact .contact-details ul li {
+  margin-bottom: 1rem;
+}
+.section-contact .contact-details ul a {
+  color: var(--clr-white);
+  transition: 0.2s ease;
+}
+.section-contact .contact-details ul a:hover, .section-contact .contact-details ul a:focus {
+  color: var(--clr-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .section-contact .contact-container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
   }
 }
 .no-scroll {

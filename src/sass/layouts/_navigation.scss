@@ -87,11 +87,12 @@
     color: #fff;
     padding: 10rem 5rem;
     overflow: hidden;
-    opacity: 0;
+    // opacity: 0;
     pointer-events: none;
+    transition: .6s ease;
 
         &.show {
-            opacity: 1;
+            // opacity: 1;
             pointer-events: initial;
         }
 
