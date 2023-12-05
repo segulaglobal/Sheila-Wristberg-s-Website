@@ -1,0 +1,84 @@
+// Table of content
+// 1. hero section
+
+
+
+// ================== hero section =========================
+.project {
+    background-image: url(/assets/project-hero.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--clr-white);
+
+    h1 {
+        font-size: 8rem;
+
+    }
+}
+
+
+// ====================== About WLIAfrica =========================
+.about-wliafrica {
+    padding: 10rem 0 15rem;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid var(--clr-gray);
+}
+
+
+
+
+
+
+.project-banner {
+    background-color: var(--clr-gray);
+    padding: 10rem 0;
+    text-align: center;
+    color: var(--clr-white);
+}
+
+
+
+
+.project-quote {
+    padding: 10rem 0 12rem;
+
+    .quote-container {
+        text-align: center;
+    }
+    p {
+        color: var(--clr-gray);
+    }
+    h1 {
+        font-size: 5rem;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        line-height: 1.3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .project {
+
+        h1 {
+            line-height: 1.2;
+        }
+    }
+}
