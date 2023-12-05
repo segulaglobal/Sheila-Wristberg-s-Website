@@ -11,7 +11,7 @@ layout: 'base.njk'
         <h1 class="heading-big mb-50 white-text">Let's start a project <br> together</h1>
         <div class="contact-container">
             <div class="form">
-                <form action="#" class="contact-form">
+                <form name="contact" method="POST" data-netlify="true" class="contact-form">
                     {# first name #}
                     <div class="input-field">
                         <label for="fname">
@@ -43,12 +43,12 @@ layout: 'base.njk'
                             What service are you looking for?
                         </label>
                         <select name="service" id="service" required>
-                            <option value="India">Select Options</option>
-                            <option value="austrailia">Leadership Coaching</option>
-                            <option value="Malaysia">Visibility coaching</option>
-                            <option value="Malaysia">Speaking engagement</option>
-                            <option value="Malaysia">Collaborative projects</option>
-                            <option value="Malaysia">Other</option>
+                            <option value="select option">Select Options</option>
+                            <option value="Leadershiip Coaching">Leadership Coaching</option>
+                            <option value="Visibility Coaching">Visibility coaching</option>
+                            <option value="Speaking Engagement">Speaking engagement</option>
+                            <option value="Collaborative Projects">Collaborative projects</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     {# message #}
