@@ -207,7 +207,6 @@ img {
 
 .heading-big {
   font-size: 7rem;
-  color: var(--clr-white);
   line-height: 1;
   font-weight: medium;
   display: inline-block;
@@ -226,7 +225,29 @@ img {
 }
 
 .primary-text {
-  color: var(--clr-primary);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.primary-text:hover {
+  color: var(--clr-white);
+}
+.primary-text:hover::after {
+  top: 0;
+  height: 100%;
+}
+.primary-text::after {
+  content: "";
+  width: calc(100% + 1rem);
+  height: 1rem;
+  background-color: var(--clr-primary);
+  position: absolute;
+  top: 90%;
+  left: -0.5rem;
+  z-index: -1;
+  transition: all 0.3s cubic-bezier(0, 0.435, 0.675, 0.19);
+  border-radius: 0.2rem;
 }
 
 @media screen and (max-width: 766px) {
@@ -323,10 +344,11 @@ img {
 }
 
 .btn-thin {
-  padding: 2rem 3rem;
+  padding: 3rem 0rem;
   display: inline-block;
   margin-top: 1rem;
   color: var(--clr-primary);
+  transition: 0.4s;
 }
 .btn-thin:hover, .btn-thin:focus {
   color: darkred;
@@ -849,6 +871,67 @@ footer p {
     font-size: 1.4rem;
   }
 }
+.section-about-hero {
+  width: 100%;
+  height: 80vh;
+  padding-top: 15rem;
+  background-color: #F3F3F3;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--clr-gray-light);
+}
+.section-about-hero h1 {
+  font-size: 9rem;
+  line-height: 1.2;
+  width: 100%;
+  max-width: 700px;
+  font-weight: bold;
+}
+
+.section-work {
+  padding: 10rem 0;
+  background-color: #F3F3F3;
+}
+
+.section-offering {
+  background-color: #f3f3f3;
+  padding: 15rem 0;
+}
+.section-offering .offering {
+  padding: 0 1rem;
+}
+.section-offering .offering:hover span {
+  width: 100%;
+  border-bottom: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
+}
+.section-offering .offering:hover .btn-thin {
+  transform: translateX(15px);
+}
+.section-offering .offering span {
+  display: block;
+  border-bottom: 1px solid var(--clr-gray);
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  font-weight: bold;
+  color: var(--clr-gray);
+  width: 85%;
+  transition: all 0.3s cubic-bezier(0, 0.435, 0.675, 0.19);
+}
+
+.about-awards {
+  padding: 10rem 0;
+}
+.about-awards .award-img {
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section-about-hero h1 {
+    font-size: 6rem;
+    line-height: 1.5;
+  }
+}
 .section-privacy {
   background: var(--clr-gray-light);
   padding: 10em 0;
@@ -896,27 +979,29 @@ footer p {
   margin-bottom: 10rem;
 }
 
-.blog-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  margin-bottom: 10rem;
+.section-blog__post {
+  padding: 15rem 0 10rem;
 }
 
 .article {
   width: 100%;
-  text-align: center;
   transition: all 0.4s cubic-bezier(0, 0.435, 0.675, 0.19);
   border-radius: 7px;
   overflow: hidden;
   padding-bottom: 10px;
 }
+.article:hover .btn-thin, .article:focus .btn-thin {
+  transform: translateX(15px);
+}
+.article:hover .snippet__title, .article:focus .snippet__title {
+  color: var(--clr-primary);
+}
 .article .snippet__title {
-  color: var(--clr-gray-dark-2);
-  font-size: 2.5rem;
+  color: var(--clr-black);
   text-transform: capitalize;
-  line-height: 1.5;
+  line-height: 1.2;
   padding: 1rem 0;
+  transition: 0.4s;
 }
 .article .snippet__title a {
   color: inherit;
@@ -925,12 +1010,11 @@ footer p {
   color: var(--clr-primary);
 }
 .article .snippet__meta {
-  color: var(--clr-gray-dark-1);
+  color: var(--clr-gray);
   font-size: 1.2rem;
-  margin: 0.5rem 0;
+  margin: 0rem 0;
 }
 .article .snippet__body {
-  margin: 0 1rem 1rem;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -942,6 +1026,7 @@ footer p {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 1rem;
 }
 .article .snippet__date {
   font-weight: lighter;
@@ -955,10 +1040,6 @@ footer p {
 }
 .article .snippet__text {
   margin: 0 1rem 4rem;
-}
-.article .snippet .btn {
-  margin-bottom: 1rem;
-  padding: 1rem 2.5rem;
 }
 
 @media screen and (min-width: 1023px) {
@@ -1084,6 +1165,7 @@ footer p {
   background-color: transparent;
   border: none;
   color: var(--clr-white);
+  border-bottom: 1px solid #484848;
 }
 .section-contact .contact-form select option {
   color: var(--clr-black);

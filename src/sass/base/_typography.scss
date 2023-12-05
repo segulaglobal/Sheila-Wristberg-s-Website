@@ -41,7 +41,7 @@
 // heading-big
 .heading-big {
     font-size: 7rem;
-    color: var(--clr-white);
+    // color: var(--clr-white);
     line-height: 1.0;
     font-weight: medium;
     display: inline-block
@@ -62,7 +62,33 @@
     }
 }
 .primary-text {
-    color: var(--clr-primary);
+    // color: var(--clr-primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+
+    &:hover {
+        color: var(--clr-white);
+    }
+
+    &:hover::after {
+        top: 0;
+        height: 100%;
+    }
+
+    &::after {
+        content: "";
+        width: calc(100% + 1rem);
+        height: 1rem;
+        background-color: var(--clr-primary);
+        position: absolute;
+        top: 90%;
+        left: -0.5rem;
+        z-index: -1;
+        @include ease(.3s);
+        border-radius: .2rem;
+    }
 }
 
 

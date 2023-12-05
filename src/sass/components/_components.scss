@@ -117,10 +117,11 @@
     }
 }
 .btn-thin {
-    padding: 2rem 3rem;
+    padding: 3rem 0rem;
     display: inline-block;
     margin-top: 1rem;
     color: var(--clr-primary);
+    transition: .4s;
 
     &:hover, &:focus {
       color: darkred;
