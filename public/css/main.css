@@ -624,6 +624,9 @@ img {
   }
 }
 @media screen and (max-width: 768px) {
+  .nav-menu {
+    padding-inline: 2rem;
+  }
   .nav-menu .nav-list .nav-link {
     font-size: 3rem;
   }
