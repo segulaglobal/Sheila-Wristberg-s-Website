@@ -1,5 +1,6 @@
 # Free Personal Portfolio Website
-![Carbell Sarfo Website Design](https://github.com/Carbell-sarfo/alx_capstone_project/assets/51845903/e3f0f6c9-2fcf-49be-a9fc-051416251123)
+![image](https://github.com/segulaglobal/Sheila-Wristberg-s-Website/assets/152178937/014e4d95-29c8-4eb5-935f-45e127c6e676)
+
 
 Welcome to my free personal portfolio website! This platform showcases my skills, projects, and achievements as a web developer. Discover more about my journey and explore the various features available to you.
 
