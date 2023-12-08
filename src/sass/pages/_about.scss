@@ -34,6 +34,10 @@
     background-color: #f3f3f3;
     padding: 15rem 0;
 
+    .col-3 {
+        gap: 10rem 2rem;
+    }
+
     .offering {
         padding: 0 1rem;
 
@@ -56,6 +60,10 @@
             width: 85%;
             @include ease(.3s);
         }
+
+        p {
+            // text-align: justify;
+        }
     }
 }
 
@@ -63,6 +71,10 @@
 // ============================= About Awards ==================================
 .about-awards {
     padding: 10rem 0;
+
+    .col-2 {
+        gap: 10rem 2rem;
+    }
 
     .award-img {
         border-radius: 1rem;
