@@ -254,6 +254,10 @@ img {
   border-radius: 0.2rem;
 }
 
+.dark-text {
+  color: var(--clr-black);
+}
+
 @media screen and (max-width: 766px) {
   .heading-secondary {
     font-weight: bolder;
