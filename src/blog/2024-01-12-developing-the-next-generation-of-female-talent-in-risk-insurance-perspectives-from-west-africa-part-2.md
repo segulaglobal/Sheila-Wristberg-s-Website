@@ -15,8 +15,6 @@ imageAlt: Women Leadership
 
 <!--EndFragment-->
 
-
-
 <!--StartFragment-->
 
 **What difference Do Women Leaders Make**?
@@ -27,9 +25,7 @@ A higher return on financial indicators of organizations, such as assets and equ
 
 **The Way Forward**
 
-Acknowledging the Glass Ceiling
-
-Women in West Africa must be actively supporting gender equality and advancement programs. They should be fully aware of the issues with gender inequality and gender-based discrimination in both social and professional contexts.
+Acknowledging the Glass Ceiling Women in West Africa must be actively supporting gender equality and advancement programs. They should be fully aware of the issues with gender inequality and gender-based discrimination in both social and professional contexts.
 
 > **Breaking down these barriers calls for a coordinated effort and a shift in society as a whole, not just certain individuals or organizations.**
 
@@ -42,8 +38,6 @@ Institutional obstacles are the most difficult to eliminate because they are oft
 In order to provide women with secure and encouraging communities in which to network and advance their careers, there should be organized processes in place within businesses and the insurance sector to scale their career to the next level. While there are networks that support and advance women in leadership across West Africa such as Executive Women's Network (EWN) in Ghana, Women in Management, Business and Public Service (WIMBIZ) in Nigeria, and Women on Boards (Africa), there is no regional organization devoted to the advancement of the next generation of female insurance leaders on the continent and in the West African region.
 
 At its 50th Anniversary celebration in June 2022, the African Insurance Organization recognized 50 women working in the insurance industry from around the continent. This was a commendable initiative that other organizations should follow. Beyond recognizing individuals who have succeeded in shattering the glass ceiling, the industry should make a concerted effort to encourage and advance young female talent so they may take on leadership roles. Through these leadership networks, women may be able to connect with individuals who are familiar with the unique problems they encounter as women and can provide suggestions and solutions. They can also be matched with female mentors and role models to help them along their career journey.
-
-
 
 **Mentorship and sponsorship opportunities**
 
@@ -58,8 +52,6 @@ Unfortunately, many African organizations lack defined methods for promotion and
 All insurance entities should commit to implementing and enforcing a structured and transparent appraisal systems within ranks in the organization, with clear promotion parameters which should be effectively communicated to all staff at all levels within the organization. The appraisal system should be such that women are encouraged to clearly present their career objectives to supervisors and seek feedback on their performance and areas of strength and weakness. Accomplishments should be discussed with guidance on the next for promotion and advancement. Clear communication and feedback encourage more engagement at work and fosters a positive mindset and increased drive. Discussing their career growth empowers women to direct their own paths and plan for leadership roles within the organization.
 
 > In order to recruit, retain, support, and advance women in the sector, insurance entities must also take deliberate, strategic actions supported by adequate funds.
-
-
 
 For women who desire to return to the workforce, companies should offer suitable return-to-work policies. This can be further encouraged by hybrid work models that allow for remote and flexible employment, which will assist women succeed in their careers rather than hinder them from doing so. Women currently hold 9% fewer senior leadership positions than males do in the C-suite. Financial services companies will need to take deliberate, strategic initiatives in areas including hiring, keeping employees, succession planning, and return-to-office work schedules. By 2030, this disparity might increase to as much as 14% if efforts are not stepped up.
 
@@ -83,10 +75,6 @@ In the digital age, creating your online identity and presence is crucial. Peopl
 
 Anyone may construct the online persona they want to be viewed as, which will enable them to develop in leadership positions outside of the companies they represent. This is the beauty of the digital age.
 
-
-
-
-
 **Final thoughts: What can be done**
 
 According to the study's findings, businesses with more women on their boards are less risky, perform better financially, and are more successful. The research findings also point to a link between less responsible decision-making and a larger appetite for risk in organizations with few or no women on their boards. Given these realities, it is crucial that African governments and corporate executives give women's leadership in the corporate sector top priority.
@@ -106,7 +94,5 @@ Women_in_insurance_2018.pdf
 *Women in Insurance: Leading to Action- © 2018 STEMconnector https://www.naturalhr.com/2021/03/23/10-reasons-why-the-world-needs-more-women-inleadership-roles/*
 
 *https://www.shapetalent.com/the-9-barriers-blocking-womensprogression-in-your-organisation/gx-risk-wob-africa-180222.pdf*
-
-
 
 <!--EndFragment-->
