@@ -14,15 +14,9 @@ imageAlt: Future of Insurance Sheila Wristberg
 ---
 # Perspectives from the 4th Sharm Rendezvous
 
-
-
 I had the honour of joining a panel discussion moderated by Michael J. McCord with other speakers, Hani Kurdi and Zainab Khatib at the Insurance Federation of Egypt's 4th Sharm Rendezvous last week. In our discussions on the the future of insurance globally and in the MENA region, we touched on cyber risks, climate change risks, ESG and sustainability, and industry talent and their impact on the insurance industry.
 
-
-
 ### The following were some of the key takeaways from our discussion:
-
-
 
 ### On Cyber Insurance
 
@@ -34,9 +28,7 @@ Regulation on obligatory reporting and disclosures could give additional informa
 
 ### On Climate Change
 
-The world is now better able to co
-
-mprehend the science underpinning climate change, analyze its effects, and develop instruments to combat its causes and effects. Consequently, the debate surrounding climate change is shifting to climate adaptation and resilience. The effects of climate change have been experienced globally especially within the last decade, --floods in East Africa, cyclones and hurricanes in the Americas and East Asia, with developing nations being disproportionately impacted due to inadequate infrastructure investment, inadequate insurance coverage and relatively higher reliance of such countries on the weather and nature.
+The world is now better able to comprehend the science underpinning climate change, analyze its effects, and develop instruments to combat its causes and effects. Consequently, the debate surrounding climate change is shifting to climate adaptation and resilience. The effects of climate change have been experienced globally especially within the last decade, --floods in East Africa, cyclones and hurricanes in the Americas and East Asia, with developing nations being disproportionately impacted due to inadequate infrastructure investment, inadequate insurance coverage and relatively higher reliance of such countries on the weather and nature.
 
 Insurance penetration in many developing nations is less than 2%, with equally lower rates of insurance coverage, compared to other regions, hence many lives, livelihoods and assets are uninsured in these countries. When tragic natural disasters occur, many people are forced to resort to out-of-pocket payments (with already restricted funds that would have otherwise been committed to health, education or food) to recover, restore and replace their assets and sources of livelihoods. Governments and international aid organisations are also required to intervene in many cases to help ameliorate the effects of the disasters.
 
