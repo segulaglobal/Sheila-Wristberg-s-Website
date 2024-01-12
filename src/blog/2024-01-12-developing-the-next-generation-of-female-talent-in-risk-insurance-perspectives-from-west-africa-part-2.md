@@ -11,7 +11,7 @@ imageAlt: Women Leadership
 ---
 <!--StartFragment-->
 
-**Read part 1 of this article [here](https://www.linkedin.com/pulse/developing-next-generation-female-talent-risk-from-west-wristberg/?trackingId=dr1CYAJYRVCvPASFNW28sw%3D%3D)**
+**Read part 1 of this article [here](https://sheilawristberg.com/blog/2024-01-11-future-of-insurance/)**
 
 <!--EndFragment-->
 
