@@ -33,8 +33,6 @@ According to a McKinsey study on leadership in the African private sector conduc
 
 The insurance industry is one of the world's largest industries, with a global market value that exceeds the gross domestic product (GDP) of a number of nations except for the United States and China (in 2021). In 2020, the insurance industry employed an estimated 2.86 million people in the United States alone with 60% of them being women. Data culled from the US Bureau of Labour Statistics shows that since 27 the presence of women in the insurance industry has outstripped that of men, which is at contrast to the US national average of 46.8% female occupied positions. The industry employes loss adjusters, actuaries, human resource managers, accountants, marketers, agents, brokers, and data analysts. Women are however underrepresented in management roles in globally and in West Africa's insurance industry, as they are in many other industries around the world. The World Economic Forum states that women have a 28% chance of reaching leadership positions in all industries globally.
 
-
-
 ![Gender Diversity by leadership position ](https://media.licdn.com/dms/image/D5612AQGmCAiW-HSKDw/article-inline_image-shrink_1500_2232/0/1670541323900?e=1710374400&v=beta&t=hnI5VXON5MPH9NeyWYBJ00G0pC1-5spO3gY_XVwCaew)
 
 women_in_insurance_2018.pdf
@@ -54,8 +52,6 @@ Regional overview of women in the C-suite and on Boards
 ![Regional overview of women in the C-suite and on Boards](https://media.licdn.com/dms/image/D5612AQGcGv_o_qg2uw/article-inline_image-shrink_1500_2232/0/1670542124290?e=1710374400&v=beta&t=frVskg_QkvFY5_xSNVXtNhzSA1W3MOfO9VwcfOv8p5o)
 
 gx-risk-wob-africa-180222.pdf
-
-
 
 Research shows that women are more likely to serve on audit and risk committees for publicly traded companies than on strategy and transformation committees, which are more strategic decision-making bodies. This finding suggests that women are more likely to be assigned to committees that deal with risk mitigation and financial performance auditing, rather than committees that are more strategic and focused on growth. This is also true for SMEs, where women are far more likely to serve on finance and audit committees than marketing and strategy committees.
 
