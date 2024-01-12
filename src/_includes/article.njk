@@ -1,24 +1,37 @@
 --- 
 
-layout: 'base.njk'
+layout: 'blog-base.njk'
 
 --- 
 
        
   <div class="individual-article__page" id="hero">
       <div class="flow">
-        <h1 class="blog-heading mb-20 text-center"> {{ title }} </h1>
+        {# title #}
+        <h1 class="blog-heading mb-20"> {{ title }} </h1>
+
+        {# subtitle #}
+        <p class="blog-subheading"> {{ description }} </p>
 
         {# author #}
         <div class="author">
           <div class="author__image">
             <img src="/assets/thumbnail.png" alt="Sheila's Blog">
-            <p>written by <span>{{ author }}</span></p>
+            <div>
+              <p class="dark-text">written by <span>{{ author }}</span></p>
+              <p class="">{{ date | postDate }}</p>
+            </div>
           </div>
-          <p class="text-center author">{{ date | postDate }}</p>
+          <ul class="blog-share__list">
+            <li>
+              {# <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a> #}
+            </li>
+          </ul>
         </div>
 
-        <hr>
+        {# <hr> #}
         
         {# image #}
         <img src="{{ image }}" alt="{{ imageAlt }}" class="main-article__figure">
