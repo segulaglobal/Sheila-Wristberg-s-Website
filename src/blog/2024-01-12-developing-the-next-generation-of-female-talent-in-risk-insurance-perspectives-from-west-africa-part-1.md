@@ -39,7 +39,7 @@ women_in_insurance_2018.pdf
 
 Table 1 below shows a statistics of women in leadership roles ( Managing Directors and CEOs) of insurance companies and brokerage firms in Ghana.
 
-![womenWomen in leadership roles ( Managing Directors and CEOs) of insurance companies and brokerage firms in Ghana.](https://media.licdn.com/dms/image/D5612AQFLxQomjczi4Q/article-inline_image-shrink_1500_2232/0/1670542036068?e=1710374400&v=beta&t=a0AYWmpTvg52cQzi1jiAl6gTMdX_LtDMdBTpUKuXuP8)
+![Women in leadership roles ( Managing Directors and CEOs) of insurance companies and brokerage firms in Ghana.](https://media.licdn.com/dms/image/D5612AQFLxQomjczi4Q/article-inline_image-shrink_1500_2232/0/1670542036068?e=1710374400&v=beta&t=a0AYWmpTvg52cQzi1jiAl6gTMdX_LtDMdBTpUKuXuP8)
 
 Women Leadership in Insurance in Ghana
 
@@ -51,7 +51,7 @@ Regional overview of women in the C-suite and on Boards
 
 ![Regional overview of women in the C-suite and on Boards](https://media.licdn.com/dms/image/D5612AQGcGv_o_qg2uw/article-inline_image-shrink_1500_2232/0/1670542124290?e=1710374400&v=beta&t=frVskg_QkvFY5_xSNVXtNhzSA1W3MOfO9VwcfOv8p5o)
 
-gx-risk-wob-africa-180222.pdf
+
 
 Research shows that women are more likely to serve on audit and risk committees for publicly traded companies than on strategy and transformation committees, which are more strategic decision-making bodies. This finding suggests that women are more likely to be assigned to committees that deal with risk mitigation and financial performance auditing, rather than committees that are more strategic and focused on growth. This is also true for SMEs, where women are far more likely to serve on finance and audit committees than marketing and strategy committees.
 
@@ -65,7 +65,7 @@ Another Deloitte study on the global perspective of women in the boardroom acros
 
 Other findings from the Deloitte study reveals that the average age of men is higher than that of women on boards however the average age of female chairpersons is higher than that of male chairpersons. Additionally, consumer business, manufacturing and financial services were industries with a high number of women on boards.
 
-![No alt text provided for this image](https://media.licdn.com/dms/image/D5612AQHo3asxoZBKfQ/article-inline_image-shrink_1500_2232/0/1670542653903?e=1710374400&v=beta&t=Pjv2yqpb9D5n5omcz2uqXsDSs3zNHhCXbYt7a5EQ77o)
+![statistics](https://media.licdn.com/dms/image/D5612AQHo3asxoZBKfQ/article-inline_image-shrink_1500_2232/0/1670542653903?e=1710374400&v=beta&t=Pjv2yqpb9D5n5omcz2uqXsDSs3zNHhCXbYt7a5EQ77o)
 
 gx-risk-wob-africa-180222.pdf
 
