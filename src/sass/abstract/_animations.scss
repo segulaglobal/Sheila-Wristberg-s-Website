@@ -1,90 +1,60 @@
 // Hero page slide down animation
 
-// Fadein
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slidedown {
-      
-    0% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    
-    50% {
-      opacity: .5;
-      transform: translateY(-5px);
-    }
-    
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-
-// Scroll Down
-  @keyframes scroll-down {
-    0% {
-      transform: translate(0px, -4px);
-      
-    }
-    50% {
-      transform: translate(0px, 4px);
-    }
-    100% {
-      transform: translate(0px, -4px);
-    }
-  }
-
-
-
-
-
-  // Fadin
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-
-  // From right
-  @keyframes fromRight {
-    0% {
-      transform: translateX(-200px);
-    }
-    75% {
-      transform: translateX(10px);
-    }
-    100% {
-      transform: translateX(00px);
-    }
-  }
-
-
 
 
 
   // infinite scrolling from left to right
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
+  // @keyframes my-animation {
+  //   from {
+  //     -moz-transform: translateX(100%);
+  //     -webkit-transform: translateX(100%);
+  //     transform: translateX(100%);
+  //   }
+  //   to {
+  //     -moz-transform: translateX(-100%);
+  //     -webkit-transform: translateX(-100%);
+  //     transform: translateX(-100%);
+  //   }
+  // }
+
+
+
+
+
+  // Animate when you see the intersection oberserver
+  .appear {
+    scale: .9; 
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 100px 300px;
+  }
+
+  @keyframes fade-in {
     to {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
+      scale: 1;
+      opacity: 1;
+      transform: rotate(0deg) translateX(0px);
+    }
+  }
+
+
+
+
+  // Images to animate in
+  img {
+    scale: 1.1; 
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: scale-in linear forwards;
+    animation-timeline: view();
+    animation-range: 100px 300px;
+  }
+  @keyframes scale-in {
+    to {
+      scale: 1;
+      opacity: 1;
+      transform: rotate(0deg) translateX(0px);
     }
   }

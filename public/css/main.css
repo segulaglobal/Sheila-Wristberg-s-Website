@@ -30,68 +30,36 @@
   margin-top: 5rem;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
+.appear {
+  scale: 0.9;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 100px 300px;
+}
+
+@keyframes fade-in {
   to {
+    scale: 1;
     opacity: 1;
+    transform: rotate(0deg) translateX(0px);
   }
 }
-@keyframes slidedown {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+img {
+  scale: 1.1;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: scale-in linear forwards;
+  animation-timeline: view();
+  animation-range: 100px 300px;
 }
-@keyframes scroll-down {
-  0% {
-    transform: translate(0px, -4px);
-  }
-  50% {
-    transform: translate(0px, 4px);
-  }
-  100% {
-    transform: translate(0px, -4px);
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fromRight {
-  0% {
-    transform: translateX(-200px);
-  }
-  75% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-@keyframes my-animation {
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
+
+@keyframes scale-in {
   to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    scale: 1;
+    opacity: 1;
+    transform: rotate(0deg) translateX(0px);
   }
 }
 @font-face {
@@ -721,8 +689,35 @@ footer p {
   height: 100vh;
   transition: all 0.4s cubic-bezier(0, 0.435, 0.675, 0.19);
   position: relative;
-  background-color: var(--clr-gray);
   overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.section-hero .hero-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+  animation: fade-out linear;
+  animation-timeline: view();
+  animation-range: exit;
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+.section-hero .hero-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #1697BE, rgba(23, 152, 191, 0) 40%);
+  z-index: 2;
 }
 .section-hero .hero-container {
   width: 100%;
@@ -745,6 +740,7 @@ footer p {
   bottom: 10rem;
   letter-spacing: 2px;
   white-space: nowrap;
+  z-index: 3;
 }
 
 .hero-about {
@@ -771,12 +767,20 @@ footer p {
   line-height: 1.5;
   margin-bottom: 5rem;
 }
+.hero-speaking .speaking-img {
+  transition: all 0.4s cubic-bezier(0, 0.435, 0.675, 0.19);
+  cursor: pointer;
+}
+.hero-speaking .speaking-img:hover, .hero-speaking .speaking-img:focus {
+  transform: translateY(-50px);
+}
 
 .section-awards {
   padding: 15rem 0;
 }
 .section-awards .award img {
   max-width: 250px;
+  transition: 0.4s;
 }
 
 .section-testimonials {
@@ -862,9 +866,10 @@ footer p {
   aspect-ratio: 16/9;
   border-radius: 1rem;
   transition: 0.4s;
+  transform: translateY(100px);
 }
 .section-youtube .yt:hover {
-  transform: translateY(-3px);
+  transform: translateY(-30px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.169);
 }
 

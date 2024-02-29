@@ -60,9 +60,6 @@ function openMenu () {
 
 
 
-
-
-
 // // ================== INTERSECTION OBSERVER =====================
 // const sectionHero = document.querySelector("#hero");
 // const toTopButton = document.querySelector('.to-top');
