@@ -15,16 +15,24 @@ layout: 'base.njk'
 
 
 {# ================================ Section hero ============================= #}
-<section class="section-hero" id="section-hero">
+<section class="section-hero" id="section-hero" data-color="#fff">
     <div class="container wrapper">
         <div class="hero-container">
-            <img src="/assets/hero-img.png" alt="sheila wristberg" class="hero-img">
-            <h1 class="hero-name">Sheila Wristberg</h1>
+            <div class="hero-text">
+                <h1>Leadership Beyond Boundaries</h1>
+                <p>Meet Sheila Wristberg, Award-Winning CEO of iRisk Management Ltd, Your Partner in Building Resilient Futures</p>
+                <a href="#" class="btn btn-white">Find out how</a>
+            </div>
+            <div class="hero-image">
+                <img src="/assets/hero-img.png" alt="sheila wristberg" class="hero-img">
+            </div>
+            {# <h1 class="hero-name">Sheila Wristberg</h1> #}
         </div>
     </div>
 
     {# hero-Background #}
-    <img src="/assets/hero-bg.png" alt="sheila's patterns" class="hero-bg">
+    {# <img src="/assets/hero-bg.png" alt="sheila's patterns" class="hero-bg"> #}
+    <video src="/assets/hero-video.mp4" type="video/mp4" class="hero-bg" autoplay loop muted poster="/assets/hero-bg-1.png"></video>
 
     {# overlay #}
     <div class="hero-overlay"></div>
@@ -34,8 +42,10 @@ layout: 'base.njk'
 
 
 
+
+
 {# ================================ Section about ============================= #}
-<section class="hero-about">
+<section class="section hero-about" data-color="#fff">
     <div class="container wrapper">
         <div class="col-2">
             <div class="appear">
@@ -54,7 +64,7 @@ layout: 'base.njk'
 
 
 {# ================================ Section Speaking ============================= #}
-<section class="hero-speaking">
+<section class="section hero-speaking" data-color="yellow">
     <div class="container wrapper">
         <h2 class="heading-secondary">Speaking</h2>
         <h1 class="appear">I speak to spark dialogues redefining leadership in Africa’s future. My talks spotlight progress fueled by <span class="primary-text">embracing diversity</span>, cultivating youth capabilities beyond limits, and guiding businesses to profit with purpose. 
@@ -77,7 +87,7 @@ layout: 'base.njk'
 
 
 {# ================================ Section Awards ============================= #}
-<section class="section-awards">
+<section class="section section-awards" data-color="#fff">
     <div class="container wrapper">
         <h2 class="heading-secondary mb-100">Recognition Received</h2>
         <div class="col-3-2">
@@ -132,7 +142,7 @@ layout: 'base.njk'
 
 
 <!-- =============== BLOG =================== -->
-<section class="section-blog">
+<section class="section section-blog" data-color="#fff">
     <div class="container wrapper">
         <h2 class="heading-secondary">Blog</h2>
         <div class="col-3 mb-50">
@@ -150,12 +160,12 @@ layout: 'base.njk'
 
 
 <!-- =============== YouTube Video =================== -->
-<section class="section-youtube">
+<section class="section section-youtube" data-color="white">
     <div class="container wrapper">
         <div class="col-3">
-            <iframe class="yt appear" width="560" height="315" src="https://www.youtube.com/embed/i807SRP8nKY?si=ejkl0WD7q5vwtG7H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe class="yt appear" width="560" height="315" src="https://www.youtube.com/embed/QzUSD7BLMqQ?si=Dq_p4U_LEJvUtXTP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe class="yt appear" width="560" height="315" src="https://www.youtube.com/embed/3Izx1Hij7bM?si=wUnak-F5adLgcYdf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+            <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/i807SRP8nKY?si=ejkl0WD7q5vwtG7H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/QzUSD7BLMqQ?si=Dq_p4U_LEJvUtXTP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/3Izx1Hij7bM?si=wUnak-F5adLgcYdf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
         </div>
     </div>
 </section>

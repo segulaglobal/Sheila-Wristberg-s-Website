@@ -90,6 +90,8 @@
     }
 
 }
+
+// Blue button
 .btn-primary {
     background-color: var(--clr-primary);
     color: #fff;
@@ -103,6 +105,23 @@
         background-color: var(--clr-white);
     }
 }
+
+// White button
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+
+    &::after {
+        background-color: var(--clr-primary);
+    }
+
+    &:hover, &:focus {
+      color: Var(--clr-white);
+    }
+}
+
+// Transparent button
 .btn-neutral {
     background-color: transparent;
     color: var(--clr-gray);
@@ -116,6 +135,8 @@
       color: Var(--clr-white);
     }
 }
+
+// Thin button
 .btn-thin {
     padding: 3rem 0rem;
     display: inline-block;

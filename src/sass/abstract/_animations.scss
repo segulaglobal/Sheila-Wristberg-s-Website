@@ -1,21 +1,30 @@
 // Hero page slide down animation
-
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    scale: .8
+  }
+  to {
+      opacity: 0;
+      scale: 1;
+  }
+}
 
 
 
   // infinite scrolling from left to right
-  // @keyframes my-animation {
-  //   from {
-  //     -moz-transform: translateX(100%);
-  //     -webkit-transform: translateX(100%);
-  //     transform: translateX(100%);
-  //   }
-  //   to {
-  //     -moz-transform: translateX(-100%);
-  //     -webkit-transform: translateX(-100%);
-  //     transform: translateX(-100%);
-  //   }
-  // }
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
 
 
 
@@ -27,8 +36,8 @@
     opacity: 0;
     transform: translateX(-20px);
     animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: 100px 300px;
+    animation-timeline: view() !important;
+    animation-range: 100px 300px !important;
   }
 
   @keyframes fade-in {

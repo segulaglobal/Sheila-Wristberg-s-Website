@@ -59,6 +59,23 @@ function openMenu () {
 
 
 
+// ==================== Change the color of Background on Scroll
+const sections = document.querySelectorAll('.section');
+
+window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+    if (
+        section.getBoundingClientRect().top - 200 <= document.body.scrollTop
+    ) {
+        document.body.style.backgroundColor = section.dataset.color;
+    }
+    });
+});
+
+
+
+
+
 
 // // ================== INTERSECTION OBSERVER =====================
 // const sectionHero = document.querySelector("#hero");
