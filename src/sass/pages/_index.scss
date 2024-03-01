@@ -162,6 +162,7 @@
 
     .speaking-img {
         @include ease(.4s);
+        border-radius: 1.5rem;
     }
 }
 // End of hero speaking

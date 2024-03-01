@@ -806,6 +806,7 @@ footer p {
 }
 .hero-speaking .speaking-img {
   transition: all 0.4s cubic-bezier(0, 0.435, 0.675, 0.19);
+  border-radius: 1.5rem;
 }
 
 .section-awards {
