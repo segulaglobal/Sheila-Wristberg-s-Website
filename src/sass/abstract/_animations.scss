@@ -57,8 +57,8 @@
     opacity: 0;
     transform: translateX(-20px);
     animation: scale-in linear forwards;
-    animation-timeline: view();
-    animation-range: 100px 300px;
+    animation-timeline: view() !important;
+    animation-range: 100px 300px !important;
   }
   @keyframes scale-in {
     to {

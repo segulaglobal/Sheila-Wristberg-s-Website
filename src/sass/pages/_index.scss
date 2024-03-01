@@ -406,6 +406,22 @@
                 // transform: translateX(-10rem);
             }
         }
+
+        // hero text
+        .hero-text {
+            color: #fff;
+
+            h1 {
+                font-size: 4rem;
+                line-height: 1.2;
+                font-weight: medium;
+            }
+
+            p {
+                margin: 2rem 0;
+            }
+
+        }
     }
 
    

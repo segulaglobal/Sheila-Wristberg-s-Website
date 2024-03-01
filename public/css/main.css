@@ -73,8 +73,8 @@ img {
   opacity: 0;
   transform: translateX(-20px);
   animation: scale-in linear forwards;
-  animation-timeline: view();
-  animation-range: 100px 300px;
+  animation-timeline: view() !important;
+  animation-range: 100px 300px !important;
 }
 
 @keyframes scale-in {
@@ -935,6 +935,17 @@ footer p {
 @media screen and (max-width: 768px) {
   .section-hero {
     padding-top: 15rem;
+  }
+  .section-hero .hero-text {
+    color: #fff;
+  }
+  .section-hero .hero-text h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: medium;
+  }
+  .section-hero .hero-text p {
+    margin: 2rem 0;
   }
   .section-testimonials .testimonials-container {
     padding: 0;
