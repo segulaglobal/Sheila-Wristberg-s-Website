@@ -26,10 +26,6 @@
     z-index: 1;
     padding-top: 10rem;
 
-    .container {
-        padding-left: 150px;
-        padding-right: 100px;
-    }
     
     // hero-video-background
     .hero-bg {
@@ -351,8 +347,9 @@
 
     .section-hero {
 
-        .hero-container {
-            grid-template-columns: 1fr 1fr;
+        .container {
+            padding-left: 150px;
+            padding-right: 100px;
         }
 
         .hero-text {
@@ -388,6 +385,13 @@
     
 }
 
+@media screen and (min-width: 1020px) {
+    .section-hero {
+        .hero-container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
 
 
 @media screen and (max-width: 768px) {
